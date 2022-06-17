@@ -1,0 +1,80 @@
+/* flex box */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+ul li {
+    display: inline;
+    padding-left: 100px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+h3 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+p {
+    font-size: 12px;
+    line-height: 20px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 15px;
+}
+
+main {
+    width: 50%;
+    height: 100vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    height: 40%;
+    padding: 20px;
+    width: 175px;
+}
+
+ button {
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: Transparent;
+    border: 2px solid white;
+    cursor:pointer;
+    color: hsl(0, 0%, 95%);
+    width: 120px;
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    height: 40%;
+    padding: 20px;
+    width: 175px;
+
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    height: 40%;
+    padding: 20px;
+    width: 175px;
+
+}
